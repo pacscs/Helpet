@@ -8,14 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		D99EA73A260E34E6005494A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA739260E34E6005494A3 /* AppDelegate.swift */; };
-		D99EA73C260E34E6005494A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA73B260E34E6005494A3 /* SceneDelegate.swift */; };
 		D99EA73E260E34E6005494A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA73D260E34E6005494A3 /* ViewController.swift */; };
-		D99EA741260E34E6005494A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99EA73F260E34E6005494A3 /* Main.storyboard */; };
 		D99EA744260E34E6005494A3 /* Helpet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D99EA742260E34E6005494A3 /* Helpet.xcdatamodeld */; };
 		D99EA746260E34E8005494A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99EA745260E34E8005494A3 /* Assets.xcassets */; };
 		D99EA749260E34E8005494A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99EA747260E34E8005494A3 /* LaunchScreen.storyboard */; };
 		D99EA754260E34E8005494A3 /* HelpetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA753260E34E8005494A3 /* HelpetTests.swift */; };
 		D99EA75F260E34E8005494A3 /* HelpetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA75E260E34E8005494A3 /* HelpetUITests.swift */; };
+		D99EA770260E3562005494A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99EA76F260E3562005494A3 /* Main.storyboard */; };
+		D99EA778260E3760005494A3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA777260E3760005494A3 /* WelcomeViewController.swift */; };
+		D99EA77D260E4678005494A3 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA77C260E4678005494A3 /* EmailViewController.swift */; };
+		D99EA782260E4686005494A3 /* BirthDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA781260E4686005494A3 /* BirthDateViewController.swift */; };
+		D99EA787260E4690005494A3 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA786260E4690005494A3 /* PasswordViewController.swift */; };
+		D99EA78C260E4698005494A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA78B260E4698005494A3 /* LoginViewController.swift */; };
+		D99EA791260E46A0005494A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA790260E46A0005494A3 /* HomeViewController.swift */; };
+		D99EA796260E46A5005494A3 /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA795260E46A5005494A3 /* NamesViewController.swift */; };
+		D99EA79B260E46AD005494A3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA79A260E46AD005494A3 /* CameraViewController.swift */; };
+		D99EA7A0260E46BC005494A3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA79F260E46BC005494A3 /* DetailViewController.swift */; };
+		D99EA7A5260E46C3005494A3 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA7A4260E46C3005494A3 /* FAQViewController.swift */; };
+		D99EA7AA260E46CD005494A3 /* BloodDonorCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA7A9260E46CD005494A3 /* BloodDonorCardViewController.swift */; };
+		D99EA7AF260E46E0005494A3 /* BloodTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA7AE260E46E0005494A3 /* BloodTypeViewController.swift */; };
+		D99EA7B7260E4A31005494A3 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99EA7B6260E4A31005494A3 /* LocationSearchTable.swift */; };
+		D99EA7DC260E4C79005494A3 /* icons8-double-decker-bus-filled-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7BF260E4C79005494A3 /* icons8-double-decker-bus-filled-26.png */; };
+		D99EA7DD260E4C79005494A3 /* icons8-survey-26-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C0260E4C79005494A3 /* icons8-survey-26-2.png */; };
+		D99EA7DE260E4C79005494A3 /* icons8-brick-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C1260E4C79005494A3 /* icons8-brick-50.png */; };
+		D99EA7DF260E4C79005494A3 /* no.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C2260E4C79005494A3 /* no.jpg */; };
+		D99EA7E0260E4C79005494A3 /* icons8-test-passed-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C3260E4C79005494A3 /* icons8-test-passed-50.png */; };
+		D99EA7E1260E4C79005494A3 /* icons8-compact-camera-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C4260E4C79005494A3 /* icons8-compact-camera-50.png */; };
+		D99EA7E2260E4C79005494A3 /* icons8-name-tag-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C5260E4C79005494A3 /* icons8-name-tag-50.png */; };
+		D99EA7E3260E4C79005494A3 /* Empty Human.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C6260E4C79005494A3 /* Empty Human.png */; };
+		D99EA7E4260E4C79005494A3 /* give.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C7260E4C79005494A3 /* give.png */; };
+		D99EA7E6260E4C79005494A3 /* 78f2a79bb49f8f732fd7adfaaea90c8d--blood-donation-blood-types-chart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7C9260E4C79005494A3 /* 78f2a79bb49f8f732fd7adfaaea90c8d--blood-donation-blood-types-chart.jpg */; };
+		D99EA7E8260E4C79005494A3 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7CB260E4C79005494A3 /* logout.png */; };
+		D99EA7EA260E4C79005494A3 /* 7268-02-blood-bank-powerpoint-template-16x9-12-870x489.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7CD260E4C79005494A3 /* 7268-02-blood-bank-powerpoint-template-16x9-12-870x489.jpg */; };
+		D99EA7EB260E4C79005494A3 /* icons8-questions-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7CE260E4C79005494A3 /* icons8-questions-50.png */; };
+		D99EA7EC260E4C79005494A3 /* HomeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7CF260E4C79005494A3 /* HomeBackground.png */; };
+		D99EA7ED260E4C79005494A3 /* blood_donation_camp.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D0260E4C79005494A3 /* blood_donation_camp.png */; };
+		D99EA7EE260E4C79005494A3 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D1260E4C79005494A3 /* avatar.png */; };
+		D99EA7EF260E4C79005494A3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D2260E4C79005494A3 /* logo.png */; };
+		D99EA7F0260E4C79005494A3 /* icons8-clock-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D3260E4C79005494A3 /* icons8-clock-26.png */; };
+		D99EA7F1260E4C79005494A3 /* Human.svg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D4260E4C79005494A3 /* Human.svg */; };
+		D99EA7F2260E4C79005494A3 /* 02-700x266.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D5260E4C79005494A3 /* 02-700x266.jpg */; };
+		D99EA7F3260E4C79005494A3 /* SaveLifeGiveBlood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D6260E4C79005494A3 /* SaveLifeGiveBlood.jpg */; };
+		D99EA7F4260E4C79005494A3 /* blooddonation (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D7260E4C79005494A3 /* blooddonation (1).jpg */; };
+		D99EA7F5260E4C79005494A3 /* DonatedBlood.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D8260E4C79005494A3 /* DonatedBlood.png */; };
+		D99EA7F6260E4C79005494A3 /* icons8-questions-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7D9260E4C79005494A3 /* icons8-questions-50 (1).png */; };
+		D99EA7F8260E4C79005494A3 /* icons8-compact-camera-26-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7DB260E4C79005494A3 /* icons8-compact-camera-26-2.png */; };
+		D99EA7FD260E649B005494A3 /* Launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA7FC260E649B005494A3 /* Launch.jpg */; };
+		D99EA817260E67A4005494A3 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA813260E67A3005494A3 /* welcome.jpg */; };
+		D99EA818260E67A4005494A3 /* welcome2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA814260E67A4005494A3 /* welcome2.jpg */; };
+		D99EA819260E67A4005494A3 /* welcome1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D99EA815260E67A4005494A3 /* welcome1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +79,7 @@
 /* Begin PBXFileReference section */
 		D99EA736260E34E6005494A3 /* Helpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99EA739260E34E6005494A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D99EA73B260E34E6005494A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D99EA73D260E34E6005494A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D99EA740260E34E6005494A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D99EA743260E34E6005494A3 /* Helpet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Helpet.xcdatamodel; sourceTree = "<group>"; };
 		D99EA745260E34E8005494A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99EA748260E34E8005494A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +90,49 @@
 		D99EA75A260E34E8005494A3 /* HelpetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99EA75E260E34E8005494A3 /* HelpetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpetUITests.swift; sourceTree = "<group>"; };
 		D99EA760260E34E8005494A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99EA76F260E3562005494A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D99EA777260E3760005494A3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D99EA77C260E4678005494A3 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		D99EA781260E4686005494A3 /* BirthDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDateViewController.swift; sourceTree = "<group>"; };
+		D99EA786260E4690005494A3 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		D99EA78B260E4698005494A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D99EA790260E46A0005494A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D99EA795260E46A5005494A3 /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
+		D99EA79A260E46AD005494A3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D99EA79F260E46BC005494A3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D99EA7A4260E46C3005494A3 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		D99EA7A9260E46CD005494A3 /* BloodDonorCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodDonorCardViewController.swift; sourceTree = "<group>"; };
+		D99EA7AE260E46E0005494A3 /* BloodTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodTypeViewController.swift; sourceTree = "<group>"; };
+		D99EA7B6260E4A31005494A3 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		D99EA7BF260E4C79005494A3 /* icons8-double-decker-bus-filled-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-double-decker-bus-filled-26.png"; sourceTree = "<group>"; };
+		D99EA7C0260E4C79005494A3 /* icons8-survey-26-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-survey-26-2.png"; sourceTree = "<group>"; };
+		D99EA7C1260E4C79005494A3 /* icons8-brick-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-brick-50.png"; sourceTree = "<group>"; };
+		D99EA7C2260E4C79005494A3 /* no.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no.jpg; sourceTree = "<group>"; };
+		D99EA7C3260E4C79005494A3 /* icons8-test-passed-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-test-passed-50.png"; sourceTree = "<group>"; };
+		D99EA7C4260E4C79005494A3 /* icons8-compact-camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-compact-camera-50.png"; sourceTree = "<group>"; };
+		D99EA7C5260E4C79005494A3 /* icons8-name-tag-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-name-tag-50.png"; sourceTree = "<group>"; };
+		D99EA7C6260E4C79005494A3 /* Empty Human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty Human.png"; sourceTree = "<group>"; };
+		D99EA7C7260E4C79005494A3 /* give.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = give.png; sourceTree = "<group>"; };
+		D99EA7C9260E4C79005494A3 /* 78f2a79bb49f8f732fd7adfaaea90c8d--blood-donation-blood-types-chart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "78f2a79bb49f8f732fd7adfaaea90c8d--blood-donation-blood-types-chart.jpg"; sourceTree = "<group>"; };
+		D99EA7CB260E4C79005494A3 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		D99EA7CD260E4C79005494A3 /* 7268-02-blood-bank-powerpoint-template-16x9-12-870x489.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7268-02-blood-bank-powerpoint-template-16x9-12-870x489.jpg"; sourceTree = "<group>"; };
+		D99EA7CE260E4C79005494A3 /* icons8-questions-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-questions-50.png"; sourceTree = "<group>"; };
+		D99EA7CF260E4C79005494A3 /* HomeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeBackground.png; sourceTree = "<group>"; };
+		D99EA7D0260E4C79005494A3 /* blood_donation_camp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood_donation_camp.png; sourceTree = "<group>"; };
+		D99EA7D1260E4C79005494A3 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		D99EA7D2260E4C79005494A3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D99EA7D3260E4C79005494A3 /* icons8-clock-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-clock-26.png"; sourceTree = "<group>"; };
+		D99EA7D4260E4C79005494A3 /* Human.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Human.svg; sourceTree = "<group>"; };
+		D99EA7D5260E4C79005494A3 /* 02-700x266.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-700x266.jpg"; sourceTree = "<group>"; };
+		D99EA7D6260E4C79005494A3 /* SaveLifeGiveBlood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SaveLifeGiveBlood.jpg; sourceTree = "<group>"; };
+		D99EA7D7260E4C79005494A3 /* blooddonation (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blooddonation (1).jpg"; sourceTree = "<group>"; };
+		D99EA7D8260E4C79005494A3 /* DonatedBlood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DonatedBlood.png; sourceTree = "<group>"; };
+		D99EA7D9260E4C79005494A3 /* icons8-questions-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-questions-50 (1).png"; sourceTree = "<group>"; };
+		D99EA7DB260E4C79005494A3 /* icons8-compact-camera-26-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-compact-camera-26-2.png"; sourceTree = "<group>"; };
+		D99EA7FC260E649B005494A3 /* Launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Launch.jpg; sourceTree = "<group>"; };
+		D99EA813260E67A3005494A3 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcome.jpg; path = Helpet/Images/welcome.jpg; sourceTree = SOURCE_ROOT; };
+		D99EA814260E67A4005494A3 /* welcome2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome2.jpg; sourceTree = "<group>"; };
+		D99EA815260E67A4005494A3 /* welcome1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +183,25 @@
 		D99EA738260E34E6005494A3 /* Helpet */ = {
 			isa = PBXGroup;
 			children = (
-				D99EA739260E34E6005494A3 /* AppDelegate.swift */,
-				D99EA73B260E34E6005494A3 /* SceneDelegate.swift */,
+				D99EA820260E6E2A005494A3 /* Delegate */,
+				D99EA7BE260E4C79005494A3 /* Images */,
 				D99EA73D260E34E6005494A3 /* ViewController.swift */,
-				D99EA73F260E34E6005494A3 /* Main.storyboard */,
-				D99EA745260E34E8005494A3 /* Assets.xcassets */,
+				D99EA7B6260E4A31005494A3 /* LocationSearchTable.swift */,
+				D99EA777260E3760005494A3 /* WelcomeViewController.swift */,
+				D99EA77C260E4678005494A3 /* EmailViewController.swift */,
+				D99EA781260E4686005494A3 /* BirthDateViewController.swift */,
+				D99EA786260E4690005494A3 /* PasswordViewController.swift */,
+				D99EA78B260E4698005494A3 /* LoginViewController.swift */,
+				D99EA790260E46A0005494A3 /* HomeViewController.swift */,
+				D99EA795260E46A5005494A3 /* NamesViewController.swift */,
+				D99EA79A260E46AD005494A3 /* CameraViewController.swift */,
+				D99EA79F260E46BC005494A3 /* DetailViewController.swift */,
+				D99EA7A4260E46C3005494A3 /* FAQViewController.swift */,
+				D99EA7A9260E46CD005494A3 /* BloodDonorCardViewController.swift */,
+				D99EA7AE260E46E0005494A3 /* BloodTypeViewController.swift */,
 				D99EA747260E34E8005494A3 /* LaunchScreen.storyboard */,
+				D99EA76F260E3562005494A3 /* Main.storyboard */,
+				D99EA745260E34E8005494A3 /* Assets.xcassets */,
 				D99EA74A260E34E8005494A3 /* Info.plist */,
 				D99EA742260E34E6005494A3 /* Helpet.xcdatamodeld */,
 			);
@@ -129,6 +224,51 @@
 				D99EA760260E34E8005494A3 /* Info.plist */,
 			);
 			path = HelpetUITests;
+			sourceTree = "<group>";
+		};
+		D99EA7BE260E4C79005494A3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D99EA813260E67A3005494A3 /* welcome.jpg */,
+				D99EA815260E67A4005494A3 /* welcome1.jpg */,
+				D99EA814260E67A4005494A3 /* welcome2.jpg */,
+				D99EA7FC260E649B005494A3 /* Launch.jpg */,
+				D99EA7BF260E4C79005494A3 /* icons8-double-decker-bus-filled-26.png */,
+				D99EA7C0260E4C79005494A3 /* icons8-survey-26-2.png */,
+				D99EA7C1260E4C79005494A3 /* icons8-brick-50.png */,
+				D99EA7C2260E4C79005494A3 /* no.jpg */,
+				D99EA7C3260E4C79005494A3 /* icons8-test-passed-50.png */,
+				D99EA7C4260E4C79005494A3 /* icons8-compact-camera-50.png */,
+				D99EA7C5260E4C79005494A3 /* icons8-name-tag-50.png */,
+				D99EA7C6260E4C79005494A3 /* Empty Human.png */,
+				D99EA7C7260E4C79005494A3 /* give.png */,
+				D99EA7C9260E4C79005494A3 /* 78f2a79bb49f8f732fd7adfaaea90c8d--blood-donation-blood-types-chart.jpg */,
+				D99EA7CB260E4C79005494A3 /* logout.png */,
+				D99EA7CD260E4C79005494A3 /* 7268-02-blood-bank-powerpoint-template-16x9-12-870x489.jpg */,
+				D99EA7CE260E4C79005494A3 /* icons8-questions-50.png */,
+				D99EA7CF260E4C79005494A3 /* HomeBackground.png */,
+				D99EA7D0260E4C79005494A3 /* blood_donation_camp.png */,
+				D99EA7D1260E4C79005494A3 /* avatar.png */,
+				D99EA7D2260E4C79005494A3 /* logo.png */,
+				D99EA7D3260E4C79005494A3 /* icons8-clock-26.png */,
+				D99EA7D4260E4C79005494A3 /* Human.svg */,
+				D99EA7D5260E4C79005494A3 /* 02-700x266.jpg */,
+				D99EA7D6260E4C79005494A3 /* SaveLifeGiveBlood.jpg */,
+				D99EA7D7260E4C79005494A3 /* blooddonation (1).jpg */,
+				D99EA7D8260E4C79005494A3 /* DonatedBlood.png */,
+				D99EA7D9260E4C79005494A3 /* icons8-questions-50 (1).png */,
+				D99EA7DB260E4C79005494A3 /* icons8-compact-camera-26-2.png */,
+			);
+			name = Images;
+			path = "../../Blood-Donation-master/MapKitTutorial/Images";
+			sourceTree = "<group>";
+		};
+		D99EA820260E6E2A005494A3 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D99EA739260E34E6005494A3 /* AppDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +374,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99EA7F6260E4C79005494A3 /* icons8-questions-50 (1).png in Resources */,
+				D99EA7F0260E4C79005494A3 /* icons8-clock-26.png in Resources */,
+				D99EA819260E67A4005494A3 /* welcome1.jpg in Resources */,
+				D99EA7E2260E4C79005494A3 /* icons8-name-tag-50.png in Resources */,
+				D99EA7F8260E4C79005494A3 /* icons8-compact-camera-26-2.png in Resources */,
+				D99EA7EF260E4C79005494A3 /* logo.png in Resources */,
+				D99EA7E1260E4C79005494A3 /* icons8-compact-camera-50.png in Resources */,
+				D99EA7F5260E4C79005494A3 /* DonatedBlood.png in Resources */,
+				D99EA7E4260E4C79005494A3 /* give.png in Resources */,
+				D99EA7ED260E4C79005494A3 /* blood_donation_camp.png in Resources */,
+				D99EA7DE260E4C79005494A3 /* icons8-brick-50.png in Resources */,
+				D99EA7DD260E4C79005494A3 /* icons8-survey-26-2.png in Resources */,
+				D99EA7E3260E4C79005494A3 /* Empty Human.png in Resources */,
+				D99EA7E8260E4C79005494A3 /* logout.png in Resources */,
+				D99EA7EE260E4C79005494A3 /* avatar.png in Resources */,
+				D99EA7F2260E4C79005494A3 /* 02-700x266.jpg in Resources */,
+				D99EA7F4260E4C79005494A3 /* blooddonation (1).jpg in Resources */,
 				D99EA749260E34E8005494A3 /* LaunchScreen.storyboard in Resources */,
+				D99EA7EC260E4C79005494A3 /* HomeBackground.png in Resources */,
+				D99EA7E6260E4C79005494A3 /* 78f2a79bb49f8f732fd7adfaaea90c8d--blood-donation-blood-types-chart.jpg in Resources */,
+				D99EA7DF260E4C79005494A3 /* no.jpg in Resources */,
+				D99EA7F3260E4C79005494A3 /* SaveLifeGiveBlood.jpg in Resources */,
+				D99EA7E0260E4C79005494A3 /* icons8-test-passed-50.png in Resources */,
+				D99EA7DC260E4C79005494A3 /* icons8-double-decker-bus-filled-26.png in Resources */,
+				D99EA7EA260E4C79005494A3 /* 7268-02-blood-bank-powerpoint-template-16x9-12-870x489.jpg in Resources */,
+				D99EA818260E67A4005494A3 /* welcome2.jpg in Resources */,
+				D99EA7F1260E4C79005494A3 /* Human.svg in Resources */,
 				D99EA746260E34E8005494A3 /* Assets.xcassets in Resources */,
-				D99EA741260E34E6005494A3 /* Main.storyboard in Resources */,
+				D99EA817260E67A4005494A3 /* welcome.jpg in Resources */,
+				D99EA7FD260E649B005494A3 /* Launch.jpg in Resources */,
+				D99EA770260E3562005494A3 /* Main.storyboard in Resources */,
+				D99EA7EB260E4C79005494A3 /* icons8-questions-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +430,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99EA7A0260E46BC005494A3 /* DetailViewController.swift in Sources */,
+				D99EA78C260E4698005494A3 /* LoginViewController.swift in Sources */,
+				D99EA796260E46A5005494A3 /* NamesViewController.swift in Sources */,
+				D99EA782260E4686005494A3 /* BirthDateViewController.swift in Sources */,
+				D99EA787260E4690005494A3 /* PasswordViewController.swift in Sources */,
 				D99EA73E260E34E6005494A3 /* ViewController.swift in Sources */,
+				D99EA79B260E46AD005494A3 /* CameraViewController.swift in Sources */,
+				D99EA77D260E4678005494A3 /* EmailViewController.swift in Sources */,
+				D99EA791260E46A0005494A3 /* HomeViewController.swift in Sources */,
+				D99EA7AF260E46E0005494A3 /* BloodTypeViewController.swift in Sources */,
+				D99EA778260E3760005494A3 /* WelcomeViewController.swift in Sources */,
+				D99EA7B7260E4A31005494A3 /* LocationSearchTable.swift in Sources */,
 				D99EA744260E34E6005494A3 /* Helpet.xcdatamodeld in Sources */,
+				D99EA7A5260E46C3005494A3 /* FAQViewController.swift in Sources */,
 				D99EA73A260E34E6005494A3 /* AppDelegate.swift in Sources */,
-				D99EA73C260E34E6005494A3 /* SceneDelegate.swift in Sources */,
+				D99EA7AA260E46CD005494A3 /* BloodDonorCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D99EA73F260E34E6005494A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D99EA740260E34E6005494A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D99EA747260E34E8005494A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
