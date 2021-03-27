@@ -10,11 +10,38 @@ import UIKit
 class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var welcomeImageView: UIImageView!
-   
+    @IBOutlet weak var searchButton: UIButton! {
+        didSet{
+            searchButton.tintColor = .white
+            searchButton.backgroundColor = .systemBlue
+            searchButton.layer.cornerRadius = 10
+            searchButton.layer.borderWidth = 2
+            searchButton.layer.borderColor = UIColor.white.cgColor
+        }
+    }
+    @IBOutlet weak var signUpButton: UIButton!{
+        didSet{
+            signUpButton.tintColor = .red
+            signUpButton.backgroundColor = .systemGray3
+            signUpButton.layer.cornerRadius = 10
+            signUpButton.layer.borderWidth = 2
+            signUpButton.layer.borderColor = UIColor.white.cgColor
+        }
+    }
+    @IBOutlet weak var loginButton: UIButton!{
+        didSet{
+            loginButton.tintColor = .red
+            loginButton.backgroundColor = .systemGray3
+            loginButton.layer.cornerRadius = 10
+            loginButton.layer.borderWidth = 2
+            loginButton.layer.borderColor = UIColor.white.cgColor
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Welcome"
+        self.title = "Return"
         self.navigationController?.navigationBar.backItem?.title = ""
         
         var imagesListArray = [UIImage]()

@@ -8,10 +8,28 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    @IBOutlet weak var signInButton: UIButton!{
+        didSet{
+            signInButton.tintColor = .white
+            signInButton.backgroundColor = .systemRed
+            signInButton.layer.cornerRadius = 10
+            signInButton.layer.borderWidth = 2
+            signInButton.layer.borderColor = UIColor.white.cgColor
+        }
+    }
+    @IBOutlet weak var forgetPassButton: UIButton!{
+        didSet{
+            forgetPassButton.tintColor = .white
+            forgetPassButton.backgroundColor = .systemGray4
+            forgetPassButton.layer.cornerRadius = 10
+            forgetPassButton.layer.borderWidth = 2
+            forgetPassButton.layer.borderColor = UIColor.white.cgColor
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-self.title = "Login"
+        self.title = "Login"
         // Do any additional setup after loading the view.
     }
 

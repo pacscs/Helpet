@@ -13,7 +13,7 @@ class EmailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-self.title = "Email Id"
+        self.title = "Create Account"
         // Do any additional setup after loading the view.
     }
 
